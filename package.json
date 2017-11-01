@@ -1,0 +1,16 @@
+{
+  "name": "smooch-provision",
+  "version": "1.0.0",
+  "description": "A cloud function to create an app and associated credentials on behalf of a configured account",
+  "main": "handler.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.1.0",
+    "smooch-core": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Gozzo <mike@smooch.io>",
+  "license": "MIT"
+}
