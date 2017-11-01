@@ -7,7 +7,8 @@ This project demonstrates a serverless function for creating apps and associated
 To deploy:
 
 1. Set the relevant account key, account secret and authCode values in serverless.yml. `authCode` is a unique string you define for securing access to this API. If it is compromised, anyone will be able to provision Smooch apps on your account. However, no data will be lost or accessible.
-2. `serverless deploy`
-3. POST to the `/apps/create` endpoint with an app `name` and `authCode` specified in the query string.
+2. `npm install`
+3. `serverless deploy`
+4. POST to the `/apps/create` endpoint with an app `name` and `authCode` specified in the query string.
 
 NOT PRODUCTION QUALITY - POC ONLY
